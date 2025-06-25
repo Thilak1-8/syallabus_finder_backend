@@ -221,7 +221,7 @@ async function searchYouTubeVideos(topics, language) {
 }
 
 // Start Server
-app.listen(PORT, function(err){
+app.listen(port, function(err){
     if (err) console.log("Error in server setup")
     console.log("Server listening on Port", PORT);
 })

@@ -223,7 +223,7 @@ async function searchYouTubeVideos(topics, language) {
 // Start Server
 app.listen(port, function(err){
     if (err) console.log("Error in server setup")
-    console.log("Server listening on Port", PORT);
+    console.log("Server listening on Port", port);
 })
 
 app.get('/temp', (req, res) => {

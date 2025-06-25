@@ -221,9 +221,7 @@ async function searchYouTubeVideos(topics, language) {
 }
 
 // Start Server
-app.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
-});
+
 app.get('/temp', (req, res) => {
   res.send('Hello World from Express!');
 });
